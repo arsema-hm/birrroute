@@ -1,0 +1,30 @@
+{
+ "bank": "nbe",
+ "rate_date": "2026-10-09",
+ "rates": [
+  {
+   "base": "USD",
+   "quote": "ETB",
+   "type": "buy",
+   "value": 160.9897
+  },
+  {
+   "base": "USD",
+   "quote": "ETB",
+   "type": "reference",
+   "value": 160.9897
+  },
+  {
+   "base": "USD",
+   "quote": "ETB",
+   "type": "sell",
+   "value": 162.5996
+  },
+  {
+   "base": "EUR",
+   "quote": "ETB",
+   "type": "buy",
+   "value": 180.2602
+  }
+ ]
+}

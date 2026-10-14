@@ -1,0 +1,25 @@
+{ "topics": [
+ {"id":"import-advance","title":"Import advance payment limit (per transaction)","tags":"import importer advance payment limit supplier",
+  "values":[
+   {"from":"1900-01-01","text":"USD 5,000 per import transaction (a limit unchanged for many years).","source_name":"NBE press release","source_url":"https://nbe.gov.et/nbe_news/foreign-exchange-market-measures/"},
+   {"from":"2025-05-20","text":"USD 50,000 per import transaction.","source_name":"NBE press release","source_url":"https://nbe.gov.et/nbe_news/foreign-exchange-market-measures/"}]},
+ {"id":"fx-fee-cap","title":"Bank fees when buying foreign exchange","tags":"fee fees charges cap 4% import service cash notes",
+  "values":[
+   {"from":"1900-01-01","text":"No 4% ceiling yet. Banks set their own FX fees and structures varied.","source_name":"NBE press release","source_url":"https://nbe.gov.et/nbe_news/foreign-exchange-market-measures/"},
+   {"from":"2025-05-26","text":"All bank fees for buying FX (imports, services, cash notes) capped at 4% in total. Banks must publish FX fees on NBE's website from June 2025.","source_name":"NBE press release","source_url":"https://nbe.gov.et/nbe_news/foreign-exchange-market-measures/"}]},
+ {"id":"travel-fx","title":"FX allowance for travelers","tags":"travel traveler personal business cash card allowance",
+  "values":[
+   {"from":"2025-05-20","text":"Personal travel up to USD 10,000; business travel up to USD 15,000.","source_name":"NBE press release","source_url":"https://nbe.gov.et/nbe_news/foreign-exchange-market-measures/"}]},
+ {"id":"med-edu","title":"Advance payment for medical and education abroad","tags":"medical education tuition advance payment visa ticket usd 20,000",
+  "values":[
+   {"from":"1900-01-01","text":"Visa and ticket documents were required before a bank could pay.","source_name":"Afriwise summary of FXD/04/2026","source_url":"https://www.afriwise.com/blog/update-on-the-new-forex-amendment-directive-no-fxd-04-2026"},
+   {"from":"2026-02-12","text":"Banks may pay up to USD 20,000 in advance on a proof-of-payment request or letter, with no visa or ticket requirement (Directive FXD/04/2026).","source_name":"Afriwise summary of FXD/04/2026","source_url":"https://www.afriwise.com/blog/update-on-the-new-forex-amendment-directive-no-fxd-04-2026"}]},
+ {"id":"lc-approval","title":"Letters of credit and Cash Against Documents: who approves","tags":"letter of credit lc cad approval import bank nbe",
+  "values":[
+   {"from":"1900-01-01","text":"Prior NBE approval was needed, in addition to the bank, to open an LC or process Cash Against Documents.","source_name":"Afriwise summary of FXD/05/2026","source_url":"https://www.afriwise.com/blog/nbe-relaxes-foreign-exchange-approval-requirements-and-rationalises-letter-of-credit-charges"},
+   {"from":"2026-05-25","text":"Banks can approve selected LC and CAD transactions without prior NBE approval (Directive FXD/05/2026).","source_name":"Afriwise summary of FXD/05/2026","source_url":"https://www.afriwise.com/blog/nbe-relaxes-foreign-exchange-approval-requirements-and-rationalises-letter-of-credit-charges"}]},
+ {"id":"lc-fees","title":"Letter of credit fees","tags":"letter of credit lc fees charges annualised pro rata tenor",
+  "values":[
+   {"from":"1900-01-01","text":"LC fee structures varied between banks and were not pro-rated by tenor.","source_name":"Afriwise summary of FXD/05/2026","source_url":"https://www.afriwise.com/blog/nbe-relaxes-foreign-exchange-approval-requirements-and-rationalises-letter-of-credit-charges"},
+   {"from":"2026-05-25","text":"LC fees must be annualised and applied pro rata by tenor, and cannot exceed the maximum NBE set earlier.","source_name":"NBE public notice","source_url":"https://nbe.gov.et/nbe_news/notice-on-fx-directive-amendement-and-rationalization-of-fees-and-charges-on-letters-of-credit/"}]}
+]}

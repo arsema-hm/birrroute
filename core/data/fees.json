@@ -1,0 +1,721 @@
+{
+ "version": "2026-10-11",
+ "updated": "2026-10-11",
+ "nodes": [
+  {
+   "id": "abay",
+   "name": "Abay Bank",
+   "type": "bank"
+  },
+  {
+   "id": "addis",
+   "name": "Addis International Bank",
+   "type": "bank"
+  },
+  {
+   "id": "ahadu",
+   "name": "Ahadu Bank",
+   "type": "bank"
+  },
+  {
+   "id": "amhara",
+   "name": "Amhara Bank",
+   "type": "bank"
+  },
+  {
+   "id": "awash",
+   "name": "Awash Bank",
+   "type": "bank"
+  },
+  {
+   "id": "boa",
+   "name": "Bank of Abyssinia",
+   "type": "bank"
+  },
+  {
+   "id": "berhan",
+   "name": "Berhan Bank",
+   "type": "bank"
+  },
+  {
+   "id": "bunna",
+   "name": "Bunna Bank",
+   "type": "bank"
+  },
+  {
+   "id": "cbe",
+   "name": "Commercial Bank of Ethiopia",
+   "type": "bank"
+  },
+  {
+   "id": "coop",
+   "name": "Cooperative Bank of Oromia",
+   "type": "bank"
+  },
+  {
+   "id": "dashen",
+   "name": "Dashen Bank",
+   "type": "bank"
+  },
+  {
+   "id": "dbe",
+   "name": "Development Bank of Ethiopia",
+   "type": "bank"
+  },
+  {
+   "id": "enat",
+   "name": "Enat Bank",
+   "type": "bank"
+  },
+  {
+   "id": "gadaa",
+   "name": "Gadaa Bank",
+   "type": "bank"
+  },
+  {
+   "id": "global",
+   "name": "Global Bank Ethiopia",
+   "type": "bank"
+  },
+  {
+   "id": "goh",
+   "name": "Goh Betoch Bank",
+   "type": "bank"
+  },
+  {
+   "id": "hibret",
+   "name": "Hibret Bank",
+   "type": "bank"
+  },
+  {
+   "id": "hijra",
+   "name": "Hijra Bank",
+   "type": "bank"
+  },
+  {
+   "id": "lion",
+   "name": "Lion International Bank",
+   "type": "bank"
+  },
+  {
+   "id": "nib",
+   "name": "Nib International Bank",
+   "type": "bank"
+  },
+  {
+   "id": "oromia",
+   "name": "Oromia Bank",
+   "type": "bank"
+  },
+  {
+   "id": "omo",
+   "name": "Omo Bank",
+   "type": "bank"
+  },
+  {
+   "id": "rammis",
+   "name": "Rammis Bank",
+   "type": "bank"
+  },
+  {
+   "id": "shabelle",
+   "name": "Shabelle Bank",
+   "type": "bank"
+  },
+  {
+   "id": "sidama",
+   "name": "Sidama Bank",
+   "type": "bank"
+  },
+  {
+   "id": "siinqee",
+   "name": "Siinqee Bank",
+   "type": "bank"
+  },
+  {
+   "id": "siket",
+   "name": "Siket Bank",
+   "type": "bank"
+  },
+  {
+   "id": "tsedey",
+   "name": "Tsedey Bank",
+   "type": "bank"
+  },
+  {
+   "id": "tsehay",
+   "name": "Tsehay Bank",
+   "type": "bank"
+  },
+  {
+   "id": "wegagen",
+   "name": "Wegagen Bank",
+   "type": "bank"
+  },
+  {
+   "id": "zamzam",
+   "name": "Zam Zam Bank",
+   "type": "bank"
+  },
+  {
+   "id": "zemen",
+   "name": "Zemen Bank",
+   "type": "bank"
+  },
+  {
+   "id": "telebirr",
+   "name": "telebirr wallet",
+   "type": "wallet"
+  },
+  {
+   "id": "cbebirr",
+   "name": "CBE Birr wallet",
+   "type": "wallet"
+  },
+  {
+   "id": "telebirr_other",
+   "name": "Another person's telebirr",
+   "type": "wallet"
+  },
+  {
+   "id": "agent_cash",
+   "name": "Cash from an agent",
+   "type": "cash"
+  },
+  {
+   "id": "branch_cash",
+   "name": "Cash at a branch",
+   "type": "cash"
+  },
+  {
+   "id": "atm_cash",
+   "name": "Cash from an ATM",
+   "type": "cash"
+  },
+  {
+   "id": "other_bank",
+   "name": "A bank account",
+   "type": "bank_dest"
+  }
+ ],
+ "rules": [
+  {
+   "id": "cbe-telebirr",
+   "from": "cbe",
+   "to": "telebirr",
+   "label": "CBE to telebirr/other wallet",
+   "tiers": [
+    {
+     "up_to": 10000,
+     "flat": 10
+    },
+    {
+     "up_to": 100000000,
+     "flat": 15
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 100000000,
+   "includes_vat": false,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://combanketh.et/misalliance/terms-and-tarrif",
+   "verified": true,
+   "last_checked": "2026-10-09",
+   "note": "CBE page: 10 birr (11.50 with VAT) for 1-10,000; 15 (17.25) above.",
+   "vat_rate": 0.15
+  },
+  {
+   "id": "cbe-cbebirr",
+   "from": "cbe",
+   "to": "cbebirr",
+   "label": "CBE to CBE Birr",
+   "tiers": [
+    {
+     "up_to": 100000000,
+     "flat": 0
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 100000000,
+   "includes_vat": null,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://combanketh.et/misalliance/terms-and-tarrif",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "CBE page: transfer to CBE Birr is free."
+  },
+  {
+   "id": "cbe-atm",
+   "from": "cbe",
+   "to": "atm_cash",
+   "label": "CBE ATM withdrawal",
+   "tiers": [
+    {
+     "up_to": 50000,
+     "pct": 0.35
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 50000,
+   "includes_vat": false,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://combanketh.et/misalliance/terms-and-tarrif",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "CBE page: 0.35% plus VAT. 50,000 is the daily cash limit in CBE's key facts statement.",
+   "vat_rate": 0.15
+  },
+  {
+   "id": "cbe-branch",
+   "from": "cbe",
+   "to": "branch_cash",
+   "label": "CBE branch withdrawal",
+   "tiers": [
+    {
+     "up_to": 1000,
+     "flat": 0
+    },
+    {
+     "up_to": 10000,
+     "flat": 5
+    },
+    {
+     "up_to": 75000,
+     "flat": 10
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 75000,
+   "includes_vat": false,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://combanketh.et/uploads/Terms_and_Tariffs_8151c11230.pdf",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "CBE tariff PDF: free to 1,000; 5 birr to 10,000; 10 birr to 75,000 (before 15% VAT).",
+   "vat_rate": 0.15
+  },
+  {
+   "id": "cbebirr-atm",
+   "from": "cbebirr",
+   "to": "atm_cash",
+   "label": "CBE Birr cash-out at ATM",
+   "tiers": [
+    {
+     "up_to": 100000000,
+     "pct": 0.35
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 100000000,
+   "includes_vat": false,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://combanketh.et/misalliance/terms-and-tarrif",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "CBE page, CBE Birr services: cash out on ATM 0.35% plus VAT.",
+   "vat_rate": 0.15
+  },
+  {
+   "id": "cbebirr-branch",
+   "from": "cbebirr",
+   "to": "branch_cash",
+   "label": "CBE Birr cash-out at branch",
+   "tiers": [
+    {
+     "up_to": 100000000,
+     "flat": 0
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 100000000,
+   "includes_vat": null,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://combanketh.et/misalliance/terms-and-tarrif",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "CBE page, CBE Birr services: at branch free."
+  },
+  {
+   "id": "boa-telebirr",
+   "from": "boa",
+   "to": "telebirr",
+   "label": "BOA to telebirr/M-Pesa",
+   "tiers": [
+    {
+     "up_to": 10000,
+     "flat": 10
+    },
+    {
+     "up_to": 100000000,
+     "flat": 15
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 100000000,
+   "includes_vat": false,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://www.bankofabyssinia.com/tariffs/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "BOA page: 10 birr, 15 above 10,000. All charges are stated before 15% VAT.",
+   "vat_rate": 0.15
+  },
+  {
+   "id": "boa-branch",
+   "from": "boa",
+   "to": "branch_cash",
+   "label": "BOA branch withdrawal",
+   "tiers": [
+    {
+     "up_to": 2000,
+     "flat": 0
+    },
+    {
+     "up_to": 10000,
+     "flat": 5
+    },
+    {
+     "up_to": 50000,
+     "flat": 10
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 50000,
+   "includes_vat": false,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://www.bankofabyssinia.com/tariffs/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "BOA page: free to 2,000; 5 birr to 10,000; 10 birr to 50,000. Before 15% VAT.",
+   "vat_rate": 0.15
+  },
+  {
+   "id": "siinqee-telebirr",
+   "from": "siinqee",
+   "to": "telebirr",
+   "label": "Siinqee to telebirr/other wallet",
+   "tiers": [
+    {
+     "up_to": 10000,
+     "pct": 0.2
+    },
+    {
+     "up_to": 50000,
+     "pct": 0.15
+    },
+    {
+     "up_to": 100000,
+     "pct": 0.12
+    }
+   ],
+   "min_amount": 10,
+   "max_amount": 100000,
+   "includes_vat": null,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://siinqeebank.com/tariffs/",
+   "verified": true,
+   "last_checked": "2026-10-09",
+   "note": "Siinqee page: 0.2 / 0.15 / 0.12 per 100, read as a percentage."
+  },
+  {
+   "id": "siinqee-otherbank",
+   "from": "siinqee",
+   "to": "other_bank",
+   "label": "Siinqee to another bank",
+   "tiers": [
+    {
+     "up_to": 5000,
+     "pct": 0.5
+    },
+    {
+     "up_to": 100000,
+     "pct": 0.25,
+     "flat": 5
+    }
+   ],
+   "min_amount": 10,
+   "max_amount": 100000,
+   "includes_vat": null,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://siinqeebank.com/tariffs/",
+   "verified": true,
+   "last_checked": "2026-10-09",
+   "note": "Siinqee page: 0.5 per 100 (10-5,000); 0.25 per 100 + 5 birr (5,001-100,000)."
+  },
+  {
+   "id": "telebirr-cashout",
+   "from": "telebirr",
+   "to": "agent_cash",
+   "label": "telebirr cash-out at an agent",
+   "tiers": [
+    {
+     "up_to": 50,
+     "flat": 1.2
+    },
+    {
+     "up_to": 100,
+     "flat": 2.4
+    },
+    {
+     "up_to": 300,
+     "flat": 4
+    },
+    {
+     "up_to": 500,
+     "flat": 6
+    },
+    {
+     "up_to": 1000,
+     "flat": 8
+    },
+    {
+     "up_to": 3000,
+     "flat": 10
+    },
+    {
+     "up_to": 5000,
+     "flat": 12
+    },
+    {
+     "up_to": 8000,
+     "flat": 15
+    },
+    {
+     "up_to": 15000,
+     "flat": 17
+    },
+    {
+     "up_to": 20000,
+     "flat": 19
+    },
+    {
+     "up_to": 30000,
+     "flat": 22
+    },
+    {
+     "up_to": 75000,
+     "flat": 25
+    }
+   ],
+   "min_amount": 25.1,
+   "max_amount": 75000,
+   "includes_vat": null,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://www.ethiotelecom.et/telebirr/telebirr-pricing/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "Official pricing page, cash-out tariff."
+  },
+  {
+   "id": "telebirr-p2p",
+   "from": "telebirr",
+   "to": "telebirr_other",
+   "label": "telebirr to another telebirr",
+   "tiers": [
+    {
+     "up_to": 100,
+     "flat": 1
+    },
+    {
+     "up_to": 500,
+     "flat": 2
+    },
+    {
+     "up_to": 1500,
+     "flat": 4
+    },
+    {
+     "up_to": 5000,
+     "flat": 6
+    },
+    {
+     "up_to": 75000,
+     "flat": 8
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 75000,
+   "includes_vat": null,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://www.ethiotelecom.et/telebirr/telebirr-pricing/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "Official pricing page, P2P tariff."
+  },
+  {
+   "id": "telebirr-bank",
+   "from": "telebirr",
+   "to": "other_bank",
+   "label": "telebirr to a bank account",
+   "tiers": [
+    {
+     "up_to": 100,
+     "flat": 1
+    },
+    {
+     "up_to": 500,
+     "flat": 3
+    },
+    {
+     "up_to": 1500,
+     "flat": 6
+    },
+    {
+     "up_to": 5000,
+     "flat": 9
+    },
+    {
+     "up_to": 75000,
+     "flat": 15
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 75000,
+   "includes_vat": null,
+   "effective_from": "2024-07-01",
+   "effective_to": null,
+   "source_url": "https://www.ethiotelecom.et/telebirr/telebirr-pricing/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "Official pricing page, telebirr to bank transfer tariff."
+  },
+  {
+   "id": "amhara-telebirr",
+   "from": "amhara",
+   "to": "telebirr",
+   "label": "Amhara Bank to telebirr wallet",
+   "tiers": [
+    {
+     "up_to": 5000,
+     "flat": 5
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 5000,
+   "includes_vat": false,
+   "vat_rate": 0.15,
+   "effective_from": "2025-09-01",
+   "effective_to": null,
+   "source_url": "https://www.amharabank.com.et/storage/2025/09/Digital-Banking-Products-and-Services-pricing-Final.pdf",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "Amhara Bank tariff PDF (Sept 2025): 5 birr up to 5,000 via app/USSD, daily limit 5,000, plus 15% VAT."
+  },
+  {
+   "id": "dashen-telebirr",
+   "from": "dashen",
+   "to": "telebirr",
+   "label": "Dashen to telebirr wallet",
+   "tiers": [
+    {
+     "up_to": 5000,
+     "flat": 5
+    },
+    {
+     "up_to": 15000,
+     "flat": 10
+    },
+    {
+     "up_to": 100000000,
+     "flat": 15
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 100000000,
+   "includes_vat": null,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "source_url": "https://dashenbanksc.com/terms-and-tariffs/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "Dashen tariff page: 5 birr to 5,000; 10 birr to 15,000; 15 birr above."
+  },
+  {
+   "id": "dashen-otherbank",
+   "from": "dashen",
+   "to": "other_bank",
+   "label": "Dashen to another bank (EthSwitch)",
+   "tiers": [
+    {
+     "up_to": 5000,
+     "pct": 0.4
+    },
+    {
+     "up_to": 25000,
+     "pct": 0.24
+    },
+    {
+     "up_to": 100000,
+     "pct": 0.16
+    },
+    {
+     "up_to": 1000000,
+     "pct": 0.08
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 1000000,
+   "includes_vat": null,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "source_url": "https://dashenbanksc.com/terms-and-tariffs/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "Dashen tariff page: 0.40% to 5,000; 0.24% to 25,000; 0.16% to 100,000; 0.08% to 1,000,000."
+  },
+  {
+   "id": "dashen-branch",
+   "from": "dashen",
+   "to": "branch_cash",
+   "label": "Dashen branch withdrawal",
+   "tiers": [
+    {
+     "up_to": 50000,
+     "flat": 0
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 50000,
+   "includes_vat": null,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "source_url": "https://dashenbanksc.com/terms-and-tariffs/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "Dashen tariff page: branch cash withdrawal free for account holders within the NBE limit (50,000 assumed as the daily limit)."
+  },
+  {
+   "id": "dashen-atm",
+   "from": "dashen",
+   "to": "atm_cash",
+   "label": "Dashen ATM withdrawal",
+   "tiers": [
+    {
+     "up_to": 50000,
+     "pct": 0.35
+    }
+   ],
+   "min_amount": 1,
+   "max_amount": 50000,
+   "includes_vat": null,
+   "effective_from": "2025-01-01",
+   "effective_to": null,
+   "source_url": "https://dashenbanksc.com/terms-and-tariffs/",
+   "verified": true,
+   "last_checked": "2026-10-11",
+   "note": "Dashen tariff page: 0.35% per ATM withdrawal on local cards (50,000 assumed as the daily limit)."
+  }
+ ]
+}

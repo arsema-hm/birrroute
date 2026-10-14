@@ -1,0 +1,210 @@
+{
+ "success": true,
+ "data": {
+  "currency": "USD",
+  "asOf": "2026-10-10T11:07:35.338Z",
+  "effectiveDate": "2026-10-10",
+  "rankings": [
+   {
+    "type": "cash",
+    "side": "buy",
+    "ranks": [
+     {
+      "position": 1,
+      "bankCode": "CBE",
+      "bankName": "Commercial Bank of Ethiopia",
+      "rate": "163.4365",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 2,
+      "bankCode": "HIB",
+      "bankName": "Hibret Bank",
+      "rate": "166.6169",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 3,
+      "bankCode": "BUN",
+      "bankName": "Buna Bank",
+      "rate": "167.6065",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 4,
+      "bankCode": "ABB",
+      "bankName": "Abay Bank",
+      "rate": "167.6133",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 5,
+      "bankCode": "OMO",
+      "bankName": "Omo Bank",
+      "rate": "163.5794",
+      "effectiveDate": "2026-09-28",
+      "isStale": true
+     },
+     {
+      "position": 6,
+      "bankCode": "ORO",
+      "bankName": "Oromia Bank",
+      "rate": "168.1738",
+      "effectiveDate": "2026-10-09",
+      "isStale": true
+     }
+    ]
+   },
+   {
+    "type": "cash",
+    "side": "sell",
+    "ranks": [
+     {
+      "position": 1,
+      "bankCode": "ABB",
+      "bankName": "Abay Bank",
+      "rate": "164.3268",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 2,
+      "bankCode": "BUN",
+      "bankName": "Buna Bank",
+      "rate": "164.3201",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 3,
+      "bankCode": "HIB",
+      "bankName": "Hibret Bank",
+      "rate": "163.3499",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 4,
+      "bankCode": "CBE",
+      "bankName": "Commercial Bank of Ethiopia",
+      "rate": "160.2319",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 5,
+      "bankCode": "ORO",
+      "bankName": "Oromia Bank",
+      "rate": "164.8763",
+      "effectiveDate": "2026-10-09",
+      "isStale": true
+     },
+     {
+      "position": 6,
+      "bankCode": "OMO",
+      "bankName": "Omo Bank",
+      "rate": "160.372",
+      "effectiveDate": "2026-09-28",
+      "isStale": true
+     }
+    ]
+   },
+   {
+    "type": "transactional",
+    "side": "buy",
+    "ranks": [
+     {
+      "position": 1,
+      "bankCode": "CBE",
+      "bankName": "Commercial Bank of Ethiopia",
+      "rate": "163.4365",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 2,
+      "bankCode": "BUN",
+      "bankName": "Buna Bank",
+      "rate": "164.9202",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 3,
+      "bankCode": "ABB",
+      "bankName": "Abay Bank",
+      "rate": "164.8137",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 4,
+      "bankCode": "HIB",
+      "bankName": "Hibret Bank",
+      "rate": "164.9673",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 5,
+      "bankCode": "ORO",
+      "bankName": "Oromia Bank",
+      "rate": "164.9572",
+      "effectiveDate": "2026-10-09",
+      "isStale": true
+     }
+    ]
+   },
+   {
+    "type": "transactional",
+    "side": "sell",
+    "ranks": [
+     {
+      "position": 1,
+      "bankCode": "HIB",
+      "bankName": "Hibret Bank",
+      "rate": "161.7326",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 2,
+      "bankCode": "BUN",
+      "bankName": "Buna Bank",
+      "rate": "161.6865",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 3,
+      "bankCode": "ABB",
+      "bankName": "Abay Bank",
+      "rate": "161.5821",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 4,
+      "bankCode": "CBE",
+      "bankName": "Commercial Bank of Ethiopia",
+      "rate": "160.2319",
+      "effectiveDate": "2026-10-10",
+      "isStale": false
+     },
+     {
+      "position": 5,
+      "bankCode": "ORO",
+      "bankName": "Oromia Bank",
+      "rate": "161.7227",
+      "effectiveDate": "2026-10-09",
+      "isStale": true
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,1 @@
+{ "type": "module", "scripts": { "test": "node --test test/fee.test.js test/misc.test.js test/rules.test.js test/i18n.test.js test/app.test.js test/rates.test.js" } }

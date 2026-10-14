@@ -1,0 +1,238 @@
+{
+ "version": "2026-10-11",
+ "source_url": "https://nbe.gov.et/summary-of-banks-foreign-exchange-related-fees-and-charges/",
+ "note": "NBE's table lists a 4% total FX fee for every bank (imports, service payments, cash sales).",
+ "reference": {
+  "usd_buy": 160.7882,
+  "usd_sell": 162.3961,
+  "as_of": "2026-09-25",
+  "source_name": "NBE indicative rate via allratestoday.com",
+  "source_url": "https://allratestoday.com/central-bank-rates-api/nbe/"
+ },
+ "banks": [
+  {
+   "id": "abay",
+   "name": "Abay Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "addis",
+   "name": "Addis International Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "ahadu",
+   "name": "Ahadu Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "amhara",
+   "name": "Amhara Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "awash",
+   "name": "Awash Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "boa",
+   "name": "Bank of Abyssinia",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "berhan",
+   "name": "Berhan Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "bunna",
+   "name": "Bunna Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "cbe",
+   "name": "Commercial Bank of Ethiopia",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "coop",
+   "name": "Cooperative Bank of Oromia",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "dashen",
+   "name": "Dashen Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "dbe",
+   "name": "Development Bank of Ethiopia",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "enat",
+   "name": "Enat Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "gadaa",
+   "name": "Gadaa Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "global",
+   "name": "Global Bank Ethiopia",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "goh",
+   "name": "Goh Betoch Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "hibret",
+   "name": "Hibret Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "hijra",
+   "name": "Hijra Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "lion",
+   "name": "Lion International Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "nib",
+   "name": "Nib International Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "oromia",
+   "name": "Oromia Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "omo",
+   "name": "Omo Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "rammis",
+   "name": "Rammis Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "shabelle",
+   "name": "Shabelle Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "sidama",
+   "name": "Sidama Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "siinqee",
+   "name": "Siinqee Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "siket",
+   "name": "Siket Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "tsedey",
+   "name": "Tsedey Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "tsehay",
+   "name": "Tsehay Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "wegagen",
+   "name": "Wegagen Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "zamzam",
+   "name": "Zam Zam Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  },
+  {
+   "id": "zemen",
+   "name": "Zemen Bank",
+   "fee_pct": 4,
+   "verified": true,
+   "last_checked": "2026-10-11"
+  }
+ ]
+}
