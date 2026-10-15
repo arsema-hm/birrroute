@@ -65,4 +65,6 @@ Open the QR code with Expo Go on your phone. To run the logic tests: `cd core &&
 
 ## License
 
-MIT
+License
+
+All rights reserved. The source is published for viewing and evaluation; see LICENSE. To use any part of it, ask permission first. Third-party notices: NOTICE.md.
